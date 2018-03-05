@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/queuetue/atf_flavor_scraper/issues"
   },
-  "homepage": "https://github.com/queuetue/atf_flavor_scraper#readme"
+  "homepage": "https://github.com/queuetue/atf_flavor_scraper#readme",
+  "dependencies": {
+    "csv-writer": "^1.0.0",
+    "x-ray": "^2.3.2"
+  }
 }
