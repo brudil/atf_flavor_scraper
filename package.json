@@ -4,7 +4,9 @@
   "description": "A web scraper and normalizer All The Flavors automatic database imports.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w",
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,10 @@
   "homepage": "https://github.com/queuetue/atf_flavor_scraper#readme",
   "dependencies": {
     "csv-writer": "^1.0.0",
+    "typescript": "^3.5.3",
     "x-ray": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/x-ray": "^2.3.3"
   }
 }
